@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444170699422",
+    "project_id": "perform-app",
+    "storage_bucket": "perform-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444170699422:android:32bee59a11e69e25d1b18f",
+        "android_client_info": {
+          "package_name": "com.perform_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444170699422-74e6ukp86b8kh935tkndru5skdd49vb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt-r7NDGrXjrjS96ZOkkLIHO_Jkfv3pTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444170699422-74e6ukp86b8kh935tkndru5skdd49vb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

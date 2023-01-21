@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="5dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/date"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"></TextView>
+
+    <TextView
+        android:id="@+id/date_id"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/navyblue"
+        android:layout_below="@id/date"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08/10/2023"></TextView>
+
+    <TextView
+        android:id="@+id/Time"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:layout_below="@id/date_id"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"></TextView>
+
+    <TextView
+        android:id="@+id/Time_id"
+        android:layout_below="@+id/Time"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/navyblue"
+        android:layout_marginStart="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:30 PM"></TextView>
+
+    <TextView
+        android:id="@+id/Tittle"
+        android:layout_below="@id/Time_id"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tittle"></TextView>
+
+    <TextView
+        android:id="@+id/Tittle_id"
+        android:layout_below="@+id/Tittle"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/navyblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Out"></TextView>
+
+    <TextView
+        android:id="@+id/Notes"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:layout_below="@id/Tittle_id"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"></TextView>
+
+    <TextView
+        android:id="@+id/notes_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Notes"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_box2"
+        android:padding="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        android:textColor="@color/navyblue"
+        android:textSize="14dp"
+        android:textStyle="bold"></TextView>
+
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/ic_baseline_delete_24"
+        android:backgroundTint="@color/red"></Button>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
